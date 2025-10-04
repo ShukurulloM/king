@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+nav >a.active {
+    @apply text-teal-600;
+    @apply border-teal-600
+}
+
+
+.bg-picture {
+    background-image: url(../src/img/rasm.jpg);
+    background-repeat: no-repeat;
+}
+
+::selection {
+    background-color: teal;
+    color: white; 
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: teal; 
+    border-radius: 10px;
+  }

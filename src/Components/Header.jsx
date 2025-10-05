@@ -16,7 +16,7 @@ const Header = () => {
 
   const handleNavigation = (path) => {
     navigate(path);
-    closeMenu(); // Navigatsiyadan keyin menyu yopiladi
+    closeMenu();
   };
 
   const navLinks = [

@@ -13,7 +13,8 @@ import Bootstrap from '../img/bootstrap.png';
 
 const About = () => {
   return (
-    <div className='w-full max-w-7xl mx-auto px-5 bg-black py-12'>
+    <div className="bg-black">
+    <div className='w-full max-w-7xl mx-auto px-5 py-12'>
       <h2 className='text-2xl sm:text-3xl font-medium mb-4 sm:mb-6'>Men haqimda</h2>
 
       <div className='flex flex-col lg:flex-row gap-8 md:gap-12 md:mb-16'>
@@ -133,6 +134,7 @@ const About = () => {
           </div>
         </div>
       </section>
+    </div>
     </div>
   );
 };

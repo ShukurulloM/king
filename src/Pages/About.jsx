@@ -27,7 +27,7 @@ const About = () => {
           </p>
 
           <p className='mb-4 sm:mb-5 leading-relaxed'>
-            Veb dasturchi sifatida mening asosiy maqsadim — zamonaviy, funksional va
+            Web dasturchi sifatida mening asosiy maqsadim — zamonaviy, funksional va
             foydalanuvchi uchun qulay bo'lgan web-saytlar va web-ilovalar yaratishdir.
             Men uchun dasturlash — bu nafaqat kod yozish, balki muammolarga yechim topish,
             ijodkorlikni ishga solish va foydalanuvchilarga foyda keltiradigan mahsulot ishlab chiqish

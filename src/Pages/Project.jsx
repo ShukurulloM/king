@@ -34,7 +34,7 @@ const Project = () => {
           </h2>
           <div className="w-24 h-1 bg-teal-500 mx-auto mb-6 rounded-full"></div>
           <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-            1 yillik tajribam davomida turli frontend loyihalarni yaratdim.
+            3 yillik tajribam davomida turli frontend loyihalarni yaratdim.
             Har bir loyiha yangi tajriba va ko'nikmalarni o'zlashtirish imkoniyati bo'ldi.
           </p>
         </div>

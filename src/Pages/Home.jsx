@@ -24,7 +24,7 @@ const Home = () => {
 
             <div className='text-center md:text-left max-w-lg'>
               <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold mb-3'>
-                <p>Assalomu alaykum. <br />
+                <p>Assalomu alaykum. Men<br />
                   <strong className='text-teal-600'>Muhammadov Shukurullo</strong>
                 </p>
               </h1>

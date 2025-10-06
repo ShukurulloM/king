@@ -31,7 +31,7 @@ const Home = () => {
 
               <div>
                 <p className='text-base sm:text-lg text-white/60 mb-4 md:mb-6 leading-relaxed'>
-                  "Men veb dasturchi va dizayner sifatida ijod va texnologiyani uyg'unlashtiraman.
+                  "Men web dasturchi va dizayner sifatida ijod va texnologiyani uyg'unlashtiraman.
                   Har bir loyiha orqali foydalanuvchiga qulay tajriba yaratishga intilaman.
                   Maqsadim — sifatli veb-loyihalar orqali mijozlarimning muvaffaqiyatiga hissa qo'shish."
                 </p>

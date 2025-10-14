@@ -79,7 +79,7 @@ const Project = () => {
                   </h3>
                 </div>
               </div>
-
+              
               <div className="p-6 sm:p-8">
                 <p className="text-gray-300 text-base sm:text-lg leading-relaxed mb-6">
                   {project.desc}

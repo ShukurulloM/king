@@ -66,11 +66,6 @@ const Header = () => {
             <span>/</span>
             <button onClick={() => changeLang('ru')}>RU</button>
           </div>
-
-          {/* === Tarjima matn misoli === */}
-          <p className="hidden md:block text-gray-300">{t('header')}</p>
-
-          {/* === Mobil menyu tugmasi === */}
           <button
             onClick={toggleMenu}
             className="md:hidden p-2 rounded-lg border border-gray-600 text-white hover:border-teal-400 hover:text-teal-400 transition-all duration-300"

@@ -1,7 +1,10 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [t] = useTranslation("global");
 
   return (
     <footer className="bg-gradient-to-t from-gray-900 to-black border-t border-gray-800">
@@ -10,7 +13,7 @@ const Footer = () => {
           <div className="flex justify-center items-center mx-auto gap-2 text-gray-400">
             <span>© {currentYear} Shukurullo.uz</span>
             <span className="hidden sm:inline">•</span>
-            <span className="hidden sm:inline">Barcha huquqlar himoyalangan</span>
+            <span className="hidden sm:inline">{t("footer.text")}</span>
           </div>
         </div>
       </div>

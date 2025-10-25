@@ -2,9 +2,12 @@ import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import My from '../img/men.png'
+import My from '../img/men.png';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const [t] = useTranslation("global");
+
   useEffect(() => {
     AOS.init({ duration: 1000, once: true });
   }, []);
@@ -24,31 +27,20 @@ const Home = () => {
 
             <div className='text-center md:text-left max-w-lg'>
               <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold mb-3'>
-                <p>Assalomu alaykum. Men<br />
-                  <strong className='text-teal-600'>Muhammadov Shukurullo</strong>
+                <p>
+                  {t("hero.greeting")}<br />
+                  <strong className='text-teal-600'>{t("hero.name")}</strong>
                 </p>
               </h1>
 
               <div>
                 <p className='text-base sm:text-lg text-white/60 mb-4 md:mb-6 leading-relaxed'>
-                  "Men web dasturchi va dizayner sifatida ijod va texnologiyani uyg'unlashtiraman.
-                  Har bir loyiha orqali foydalanuvchiga qulay tajriba yaratishga intilaman.
-                  Maqsadim — sifatli veb-loyihalar orqali mijozlarimning muvaffaqiyatiga hissa qo'shish."
+                  {t("hero.description")}
                 </p>
 
                 <div className='flex flex-col sm:flex-row justify-center md:justify-start gap-3'>
-                  <Link
-                    className='text-base border-2 bg-black/10 py-2 px-6 sm:px-8 md:px-12 rounded-2xl inline-block hover:border-teal-500 transition-all duration-300 shadow-lg hover:shadow-green-500/30 hover:scale-105 text-center'
-                    to="/about"
-                  >
-                    Haqida
-                  </Link>
-                  <Link
-                    className='text-base border-2 bg-black/10 py-2 px-6 sm:px-8 md:px-12 rounded-2xl inline-block hover:border-teal-500 transition-all duration-300 shadow-lg hover:shadow-green-500/30 hover:scale-105 text-center'
-                    to="/project"
-                  >
-                    Loyiha
-                  </Link>
+                  <Link className='border-2 rounded-xl py-2 px-6' to="/about">{t("hero.about")}</Link>
+                  <Link className='border-2 rounded-xl py-2 px-6' to="/project">{t("hero.project")}</Link>
                 </div>
               </div>
             </div>

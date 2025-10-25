@@ -1,0 +1,35 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects"
+    },
+    "hero": {
+        "greeting": "Hello. I am ",
+        "name": "Muhammadov Shukurullo",
+        "description": "As a web developer and designer, I combine creativity and technology. I strive to create a user-friendly experience with each project. My goal is to contribute to the success of my clients through quality web projects.",
+        "about": "About",
+        "project": "Project"
+    },
+    "about": {
+        "about me": "About me",
+        "informatsiya": "Hello! I am Muhammadov Shukurullo, born in 2005 in the Naryn district of the Namangan region of the Republic of Uzbekistan. I am currently 19 years old and have been interested in technology since the 6th grade. This interest led me to the field of web programming.",
+        "informat": "As a web developer, my main goal is to create modern, functional, and user-friendly websites and web applications. For me, programming is not just about writing code, but also about finding solutions to problems, using creativity, and developing a product that benefits users.",
+        "infor": "I develop fast and reliable web projects primarily using HTML, CSS, JavaScript, React, and Tailwind CSS technologies. I strive to strike the perfect balance between design and functionality in each of my projects.",
+        "inf": "My goal is to further expand my knowledge and experience, learn new technologies and participate in international projects in the future.",
+        "cooperation": "For collaboration or questions",
+        "cooperations": "you can contact me",
+        "title": "SEO optimization",
+        "text": "Promote your site to higher positions in search engines",
+        "title1":"Strong design",
+        "text1": "Elegance and great attention to detail in the design process",
+        "title2": "Quality development",
+        "text2": "Developing websites to high quality and modern standards",
+        "title3": "Quick workflow",
+        "text3": "Belgilangan vaqt ichida samarali va tezkor sayt yaratish",
+        "technologies": "Technologies"
+    },
+    "footer": {
+        "text": "All rights reserved"
+    }
+}

@@ -10,44 +10,38 @@ import JsIcon from '../img/js.png';
 import ReactIcon from '../img/react.png';
 import TailwindIcon from '../img/tailwindcss.png';
 import Bootstrap from '../img/bootstrap.png';
+import { useTranslation } from 'react-i18next';
+
 
 const About = () => {
+  const [t] = useTranslation("global");
+
   return (
     <div className="bg-black">
     <div className='w-full max-w-7xl mx-auto px-5 py-12'>
-      <h2 className='text-2xl sm:text-3xl font-medium mb-4 sm:mb-6'>Men haqimda</h2>
+      <h2 className='text-2xl sm:text-3xl font-medium mb-4 sm:mb-6'>{t("about.about me")}</h2>
 
       <div className='flex flex-col lg:flex-row gap-8 md:gap-12 md:mb-16'>
         <div className='text-base sm:text-lg text-white/65 flex-1'>
           <p className='mb-4 sm:mb-5 leading-relaxed'>
-            Assalomu alaykum! Men Muhammadov Shukurullo, 2005-yilda
-            O'zbekiston Respublikasining Namangan viloyati Norin tumanida tug'ilganman.
-            Hozirda 19 yoshdaman va 6-sinfdan texnologiyaga qiziqib kelaman.
-            Bu qiziqishim meni web dasturlash sohasiga yetakladi.
+           {t("about.informatsiya")}
           </p>
 
           <p className='mb-4 sm:mb-5 leading-relaxed'>
-            Web dasturchi sifatida mening asosiy maqsadim — zamonaviy, funksional va
-            foydalanuvchi uchun qulay bo'lgan web-saytlar va web-ilovalar yaratishdir.
-            Men uchun dasturlash — bu nafaqat kod yozish, balki muammolarga yechim topish,
-            ijodkorlikni ishga solish va foydalanuvchilarga foyda keltiradigan mahsulot ishlab chiqish
-            jarayonidir.
+          {t("about.informat")}
           </p>
 
           <p className='mb-4 sm:mb-5 leading-relaxed'>
-            Men asosan HTML, CSS, JavaScript, React va Tailwind CSS texnologiyalaridan foydalanib,
-            tezkor va ishonchli web-loyihalar ishlab chiqaman. Har bir loyihamda dizayn va funksionallik
-            o'rtasida mukammal muvozanat saqlashga harakat qilaman.
+          {t("about.infor")}
           </p>
 
           <p className='mb-6 sm:mb-8'>
-            Maqsadim — o'z bilim va tajribamni yanada oshirish, yangi texnologiyalarni o'rganish
-            va kelajakda xalqaro darajadagi loyihalarda ishtirok etish.
+          {t("about.inf")}
           </p>
 
           <div className='flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-7 bg-[#1a1a1a] p-4 sm:p-6 rounded-xl border border-white/20'>
             <p className="text-base sm:text-lg flex-1">
-              Hamkorlik yoki savollar uchun <span className="font-semibold text-white">men bilan bog'lanishingiz mumkin</span>.
+              {t("about.cooperation")} <span className="font-semibold text-white">{t("about.cooperations")}</span>.
             </p>
             <a
               href='https://t.me/shukurullo_5577'
@@ -64,9 +58,9 @@ const About = () => {
             <li className="flex items-start sm:items-center gap-4 bg-[#1a1a1a] p-4 rounded-xl border border-white/20 hover:border-teal-500 transition-all duration-300 shadow-lg hover:shadow-teal-500 hover:scale-105">
               <img src={Seo} alt="SEO optimizatsiya" className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0" />
               <div>
-                <span className="block text-base sm:text-lg font-semibold text-white mb-1">SEO optimizatsiya</span>
+                <span className="block text-base sm:text-lg font-semibold text-white mb-1">{t("about.title")}</span>
                 <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-                  Saytni qidiruv tizimlarida yuqori o'rinlarga ko'tarish
+                  {t("about.text")}
                 </p>
               </div>
             </li>
@@ -74,9 +68,9 @@ const About = () => {
             <li className="flex items-start sm:items-center gap-4 bg-[#1a1a1a] p-4 rounded-xl border border-white/20 hover:border-teal-500 transition-all duration-300 shadow-lg hover:shadow-teal-500 hover:scale-105">
               <img src={KuchliDizayn} alt="Kuchli dizayn" className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0" />
               <div>
-                <span className="block text-base sm:text-lg font-semibold text-white mb-1">Kuchli dizayn</span>
+                <span className="block text-base sm:text-lg font-semibold text-white mb-1">{t("about.title1")}</span>
                 <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-                  Dizayn jarayonida nafislik va detallarga katta e'tibor qaratish
+                {t("about.text1")}
                 </p>
               </div>
             </li>
@@ -84,9 +78,9 @@ const About = () => {
             <li className="flex items-start sm:items-center gap-4 bg-[#1a1a1a] p-4 rounded-xl border border-white/20 hover:border-teal-500 transition-all duration-300 shadow-lg hover:shadow-teal-500 hover:scale-105">
               <img src={SifatliSayt} alt="Sifatli ishlash chiqish" className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0" />
               <div>
-                <span className="block text-base sm:text-lg font-semibold text-white mb-1">Sifatli ishlab chiqish</span>
+                <span className="block text-base sm:text-lg font-semibold text-white mb-1">{t("about.title2")}</span>
                 <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-                  Saytlarni yuqori sifatli va zamonaviy standartlarga mos ishlab chiqish
+                {t("about.text2")}
                 </p>
               </div>
             </li>
@@ -94,9 +88,9 @@ const About = () => {
             <li className="flex items-start sm:items-center gap-4 bg-[#1a1a1a] p-4 rounded-xl border border-white/20 hover:border-teal-500 transition-all duration-300 shadow-lg hover:shadow-teal-500 hover:scale-105">
               <img src={TezkorIsh} alt="Tezkor ish jarayoni" className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0" />
               <div>
-                <span className="block text-base sm:text-lg font-semibold text-white mb-1">Tezkor ish jarayoni</span>
+                <span className="block text-base sm:text-lg font-semibold text-white mb-1">{t("about.title3")}</span>
                 <p className="text-gray-400 text-sm sm:text-base leading-relaxed">
-                  Belgilangan vaqt ichida samarali va tezkor sayt yaratish
+                {t("about.text3")}
                 </p>
               </div>
             </li>
@@ -106,7 +100,7 @@ const About = () => {
 
       <section className="mt-12">
         <h2 className="text-2xl sm:text-3xl font-bold text-white mb-3 sm:mb-4">
-          Texnologiyalar
+          {t("about.technologies")}
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6">
           <div className="group bg-[#1a1a1a] rounded-xl flex items-center justify-center p-4 sm:p-6 border border-white/20 hover:border-teal-500 transition-all duration-300 shadow-lg hover:shadow-teal-500 hover:scale-105">
@@ -124,8 +118,8 @@ const About = () => {
           <div className="group bg-[#1a1a1a] rounded-xl flex items-center justify-center p-4 sm:p-6 border border-white/20 hover:border-teal-500 transition-all duration-300 shadow-lg hover:shadow-teal-500 hover:scale-105">
             <img src={ReactIcon} alt="React" className="w-8 h-8 sm:w-12 sm:h-12 group-hover:scale-110 transition-transform duration-300" />
           </div>
-
           <div className="group bg-[#1a1a1a] rounded-xl flex items-center justify-center p-4 sm:p-6 border border-white/20 hover:border-teal-500 transition-all duration-300 shadow-lg hover:shadow-teal-500 hover:scale-105">
+
             <img src={TailwindIcon} alt="Tailwind" className="w-8 h-8 sm:w-12 sm:h-12 group-hover:scale-110 transition-transform duration-300" />
           </div>
 

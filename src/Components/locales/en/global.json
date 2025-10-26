@@ -1,3 +1,4 @@
+
 {
     "nav": {
         "home": "Home",
@@ -21,13 +22,50 @@
         "cooperations": "you can contact me",
         "title": "SEO optimization",
         "text": "Promote your site to higher positions in search engines",
-        "title1":"Strong design",
+        "title1": "Strong design",
         "text1": "Elegance and great attention to detail in the design process",
         "title2": "Quality development",
         "text2": "Developing websites to high quality and modern standards",
         "title3": "Quick workflow",
         "text3": "Belgilangan vaqt ichida samarali va tezkor sayt yaratish",
         "technologies": "Technologies"
+    },
+    "project": {
+        "loyiha": "My projects",
+        "tajriba": "During my 3 years of experience, I have created various frontend projects. Each project has been an opportunity to gain new experience and skills",
+        "liveDemo": "Live Demo",
+        "code": "Source Code",
+        "more": "More projects coming soon...",
+        "list": [
+            {
+                "id":1,
+                "title": "🛒 Online Shop",
+                "desc": "An online store built with React and TailwindCSS. Users can view, filter, and order products easily.",
+                "demo": "https://online-dokon-three.vercel.app/",
+                "github": "https://github.com/ShukurulloM/Online-do-kon",
+                "stack": [
+                    "React",
+                    "CSS",
+                    "Responsive",
+                    "E-commerce",
+                    "Modern"
+                ]
+            },
+            {
+                "id":2,
+                "title": "🇰🇷 Korean Products",
+                "desc": "A specialized e-commerce site for Korean products, featuring a modern design and user-friendly interface.",
+                "demo": "https://korea-01.vercel.app/",
+                "github": "https://github.com/ShukurulloM/korea_01",
+                "stack": [
+                    "React",
+                    "CSS",
+                    "Responsive",
+                    "E-commerce",
+                    "Modern"
+                ]
+            }
+        ]
     },
     "footer": {
         "text": "All rights reserved"

@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import Uzbekiston from '../img/uzbekistan.png';
+import Use from '../img/use.png';
+import Russion from '../img/russion.png';
+import ArrowUp from '../img/arrow-up.svg';
 
 const Header = () => {
   // === Tarjima hook ===
@@ -22,6 +26,21 @@ const Header = () => {
     navigate(path);
     closeMenu();
   };
+
+  const currentLang = i18n.language;
+  const currentFlag =
+    currentLang === "uz"
+      ? Uzbekiston
+      : currentLang === "en"
+        ? Use
+        : Russion;
+
+  const currentLabel =
+    currentLang === "uz"
+      ? "Oʻzbekcha"
+      : currentLang === "en"
+        ? "English"
+        : "Русский";
 
   // === Navigatsiya linklari ===
   const navLinks = [
@@ -61,11 +80,45 @@ const Header = () => {
           </nav>
 
           {/* === Til tanlash === */}
-          <div className="flex gap-3 font-semibold border-2 py-2 px-4 rounded-xl text-center transition-all duration-300 text-white">
-            <button onClick={() => changeLang('en')}>EN</button>
-            <span>/</span>
-            <button onClick={() => changeLang('ru')}>RU</button>
+          <div className="relative group border border-white/50 py-2 px-3 sm:px-4 rounded-lg sm:rounded-xl">
+            {/* Hozirgi til va bayroq */}
+            <div className="flex items-center justify-between sm:justify-center cursor-pointer gap-1 sm:gap-2">
+              <button className="flex items-center gap-1 sm:gap-2 text-[11px] sm:text-xs md:text-sm">
+                <img className="w-4 sm:w-5" src={currentFlag} alt="Current flag" />
+                <span className="text-white truncate max-w-[70px] sm:max-w-none">{currentLabel}</span>
+                <img className="w-3 sm:w-4" src={ArrowUp} alt="Arrow-up" />
+              </button>
+            </div>
+
+            {/* Hoverda chiqadigan tillar (desktop uchun) */}
+            <div className="hidden sm:flex flex-col absolute z-10 invisible opacity-0 group-hover:visible group-hover:opacity-100 bg-white shadow-lg text-black mt-2 w-[130px] sm:w-[160px] transition-all duration-200 rounded-md overflow-hidden">
+              <button
+                className="flex items-center gap-2 px-2 py-2 hover:bg-slate-700 hover:text-white text-xs sm:text-sm"
+                onClick={() => changeLang('uz')}
+              >
+                <img className="w-4 sm:w-5" src={Uzbekiston} alt="Oʻzbekiston bayrogʻi" />
+                <span>Oʻzbekcha</span>
+              </button>
+
+              <button
+                className="flex items-center gap-2 px-2 py-2 hover:bg-slate-700 hover:text-white text-xs sm:text-sm"
+                onClick={() => changeLang('en')}
+              >
+                <img className="w-4 sm:w-5" src={Use} alt="USA flag" />
+                <span>English</span>
+              </button>
+
+              <button
+                className="flex items-center gap-2 px-2 py-2 hover:bg-slate-700 hover:text-white text-xs sm:text-sm"
+                onClick={() => changeLang('ru')}
+              >
+                <img className="w-4 sm:w-5" src={Russion} alt="Rossiya bayrogʻi" />
+                <span>Русский</span>
+              </button>
+            </div>
+
           </div>
+
           <button
             onClick={toggleMenu}
             className="md:hidden p-2 rounded-lg border border-gray-600 text-white hover:border-teal-400 hover:text-teal-400 transition-all duration-300"

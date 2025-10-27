@@ -1,0 +1,72 @@
+{
+    "nav": {
+        "home": "Bosh sahifa",
+        "about": "Men haqimda",
+        "projects": "Loyihalar"
+    },
+    "hero": {
+        "greeting": "Salom. Men ",
+        "name": "Muhammadov Shukurullo",
+        "description": "Men veb dasturchi va dizayner sifatida ijodkorlikni texnologiya bilan uyg‘unlashtiraman. Har bir loyihamda foydalanuvchi uchun qulay tajriba yaratishga intilaman. Mening maqsadim — sifatli veb loyihalar orqali mijozlarim muvaffaqiyatiga hissa qo‘shish.",
+        "about": "Men haqimda",
+        "project": "Loyihalar"
+    },
+    "about": {
+        "about me": "Men haqimda",
+        "informatsiya": "Salom! Men Muhammadov Shukurullo, 2005-yilda O‘zbekiston Respublikasi Namangan viloyatining Norin tumanida tug‘ilganman. Hozirda 19 yoshdaman va 6-sinfdan boshlab texnologiyalarga qiziqaman. Shu qiziqish meni veb dasturlash sohasiga olib keldi.",
+        "informat": "Veb dasturchi sifatida mening asosiy maqsadim — zamonaviy, funksional va foydalanuvchiga qulay veb-saytlar hamda veb-ilovalar yaratishdir. Meningcha, dasturlash bu faqat kod yozish emas, balki muammolarga yechim topish, ijodkorlikni qo‘llash va foydali mahsulot yaratishdir.",
+        "infor": "Men asosan HTML, CSS, JavaScript, React va Tailwind CSS texnologiyalaridan foydalanib tezkor va ishonchli veb loyihalar ishlab chiqaman. Har bir loyihamda dizayn va funksionallik o‘rtasida mukammal muvozanatni saqlashga harakat qilaman.",
+        "inf": "Maqsadim — bilim va tajribamni yanada kengaytirish, yangi texnologiyalarni o‘rganish hamda kelajakda xalqaro loyihalarda ishtirok etish.",
+        "cooperation": "Hamkorlik yoki savollar uchun",
+        "cooperations": "men bilan bog‘lanishingiz mumkin",
+        "title": "SEO optimizatsiya",
+        "text": "Saytingizni qidiruv tizimlarida yuqori o‘ringa chiqaring",
+        "title1": "Kuchli dizayn",
+        "text1": "Dizayn jarayonida nafislik va detallarni puxta e’tiborga olish",
+        "title2": "Sifatli dasturlash",
+        "text2": "Saytlarni yuqori sifat va zamonaviy standartlar asosida ishlab chiqish",
+        "title3": "Tezkor ish jarayoni",
+        "text3": "Belgilangan vaqt ichida samarali va tezkor sayt yaratish",
+        "technologies": "Texnologiyalar"
+    },
+    "project": {
+        "loyiha": "Mening loyihalarim",
+        "tajriba": "3 yillik tajribam davomida turli xil frontend loyihalar yaratdim. Har bir loyiha yangi tajriba va ko‘nikmalar olish imkonini berdi.",
+        "liveDemo": "Jonli ko‘rish",
+        "code": "Manba kodi",
+        "more": "Yaqin orada yana ko‘proq loyihalar qo‘shiladi...",
+        "list": [
+            {
+                "id": 1,
+                "title": "🛒 Onlayn do‘kon",
+                "desc": "React va TailwindCSS yordamida yaratilgan onlayn do‘kon. Foydalanuvchilar mahsulotlarni ko‘rish, filtrlash va buyurtma berishlari mumkin.",
+                "demo": "https://online-dokon-three.vercel.app/",
+                "github": "https://github.com/ShukurulloM/Online-do-kon",
+                "stack": [
+                    "React",
+                    "CSS",
+                    "Moslashuvchan dizayn",
+                    "E-commerce",
+                    "Zamonaviy"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "🇰🇷 Koreya mahsulotlari",
+                "desc": "Koreya mahsulotlariga ixtisoslashgan onlayn do‘kon. Zamonaviy dizayn va foydalanuvchiga qulay interfeysga ega.",
+                "demo": "https://korea-01.vercel.app/",
+                "github": "https://github.com/ShukurulloM/korea_01",
+                "stack": [
+                    "React",
+                    "CSS",
+                    "Moslashuvchan dizayn",
+                    "E-commerce",
+                    "Zamonaviy"
+                ]
+            }
+        ]
+    },
+    "footer": {
+        "text": "Barcha huquqlar himoyalangan"
+    }
+}

@@ -5,13 +5,15 @@ import App from "./App.jsx";
 import i18next from "i18next";
 import { I18nextProvider } from "react-i18next";
 
+import global_uz from "./Components/locales/uz/global.json";
 import global_en from "./Components/locales/en/global.json";
 import global_ru from "./Components/locales/ru/global.json";
 
 i18next.init({
   interpolation: { escapeValue: false },
-  lng: "en", // boshlang‘ich til
+  lng: "uz", // boshlang‘ich til
   resources: {
+    uz: { global: global_uz },
     en: { global: global_en },
     ru: { global: global_ru },
   },

@@ -40,7 +40,7 @@ const Header = () => {
 
   const currentLabel =
     currentLang === 'uz'
-      ? 'Oʻzbekcha'
+      ? 'Uzbekcha'
       : currentLang === 'en'
       ? 'English'
       : 'Русский';
@@ -105,7 +105,7 @@ const Header = () => {
                   onClick={() => changeLang('uz')}
                 >
                   <img className="w-4 sm:w-5" src={Uzbekiston} alt="Oʻzbekiston bayrogʻi" />
-                  <span>Oʻzbekcha</span>
+                  <span>Uzbekcha</span>
                 </button>
 
                 <button

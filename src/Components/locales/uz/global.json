@@ -7,14 +7,14 @@
     "hero": {
         "greeting": "Assalomu alaykum. Men ",
         "name": "Muhammadov Shukurullo",
-        "description": "Men veb dasturchi va dizayner sifatida ijodkorlikni texnologiya bilan uyg‘unlashtiraman. Har bir loyihamda foydalanuvchi uchun qulay tajriba yaratishga intilaman. Mening maqsadim — sifatli veb loyihalar orqali mijozlarim muvaffaqiyatiga hissa qo‘shish.",
+        "description": "Men web dasturchi va dizayner sifatida ijodkorlikni texnologiya bilan uyg‘unlashtiraman. Har bir loyihamda foydalanuvchi uchun qulay tajriba yaratishga intilaman. Mening maqsadim — sifatli veb loyihalar orqali mijozlarim muvaffaqiyatiga hissa qo‘shish.",
         "about": "Men haqimda",
         "project": "Loyihalar"
     },
     "about": {
         "about me": "Men haqimda",
-        "informatsiya": "Salom! Men Muhammadov Shukurullo, 2005-yilda O‘zbekiston Respublikasi Namangan viloyatining Norin tumanida tug‘ilganman. Hozirda 19 yoshdaman va 6-sinfdan boshlab texnologiyalarga qiziqaman. Shu qiziqish meni veb dasturlash sohasiga olib keldi.",
-        "informat": "Veb dasturchi sifatida mening asosiy maqsadim — zamonaviy, funksional va foydalanuvchiga qulay veb-saytlar hamda veb-ilovalar yaratishdir. Meningcha, dasturlash bu faqat kod yozish emas, balki muammolarga yechim topish, ijodkorlikni qo‘llash va foydali mahsulot yaratishdir.",
+        "informatsiya": "Salom! Men Muhammadov Shukurullo, 2009-yilda O‘zbekiston Respublikasi Namangan viloyatining Norin tumanida tug‘ilganman. Hozirda 16 yoshdaman va 6-sinfdan boshlab texnologiyalarga qiziqaman. Shu qiziqish meni veb dasturlash sohasiga olib keldi.",
+        "informat": "Web dasturchi sifatida mening asosiy maqsadim — zamonaviy, funksional va foydalanuvchiga qulay veb-saytlar hamda veb-ilovalar yaratishdir. Meningcha, dasturlash bu faqat kod yozish emas, balki muammolarga yechim topish, ijodkorlikni qo‘llash va foydali mahsulot yaratishdir.",
         "infor": "Men asosan HTML, CSS, JavaScript, React va Tailwind CSS texnologiyalaridan foydalanib tezkor va ishonchli veb loyihalar ishlab chiqaman. Har bir loyihamda dizayn va funksionallik o‘rtasida mukammal muvozanatni saqlashga harakat qilaman.",
         "inf": "Maqsadim — bilim va tajribamni yanada kengaytirish, yangi texnologiyalarni o‘rganish hamda kelajakda xalqaro loyihalarda ishtirok etish.",
         "cooperation": "Hamkorlik yoki savollar uchun",

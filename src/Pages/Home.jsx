@@ -4,8 +4,10 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import My from '../img/men.png';
 import { useTranslation } from 'react-i18next';
+import useTitle from '../Components/useTitle';
 
 const Home = () => {
+  useTitle("Asosiy sahifa")
   const [t] = useTranslation("global");
 
   useEffect(() => {

@@ -63,7 +63,23 @@
                     "E-commerce",
                     "Zamonaviy"
                 ]
+            },
+            {
+                "id": 3,
+                "title": "📚 Online Ta’lim Platformasi",
+                "desc": "Ingliz tili, Adabiyot, Matematika, Ona tili va Rus tili bo‘yicha zamonaviy onlayn o‘quv platforma. Interaktiv darslar, testlar va qulay interfeys.",
+                "demo": "https://ilm-bilim.vercel.app/",
+                "github": "https://github.com/ShukurulloM/ilm-bilim.vercel.app",
+                "stack": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Responsive dizayn",
+                    "Online kurslar",
+                    "Interaktiv platforma"
+                ]
             }
+            
         ]
     },
     "footer": {

@@ -64,7 +64,23 @@
                     "E-commerce",
                     "Modern"
                 ]
+            },
+            {
+                "id": 3,
+                "title": "📚 Online Education Platform",
+                "desc": "A modern online learning platform for English, Literature, Mathematics, Native Language, and Russian. Interactive lessons, tests, and a user-friendly interface.",
+                "demo": "https://ilm-bilim.vercel.app/",
+                "github": "https://github.com/ShukurulloM/ilm-bilim.vercel.app",
+                "stack": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "Responsive design",
+                    "Online courses",
+                    "Interactive platform"
+                ]
             }
+            
         ]
     },
     "footer": {

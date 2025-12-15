@@ -11,9 +11,11 @@ import ReactIcon from '../img/react.png';
 import TailwindIcon from '../img/tailwindcss.png';
 import Bootstrap from '../img/bootstrap.png';
 import { useTranslation } from 'react-i18next';
+import useTitle from '../Components/useTitle';
 
 
 const About = () => {
+  useTitle("Haqida")
   const [t] = useTranslation("global");
 
   return (

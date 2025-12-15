@@ -2,7 +2,9 @@ import React from "react";
 import { Github, ExternalLink } from "lucide-react";
 import Online from "../img/online.png";
 import Koraya from "../img/korea.png";
+import English from '../img/englis.png'
 import { useTranslation } from 'react-i18next';
+import useTitle from "../Components/useTitle";
 
 const localProjects = [
   {
@@ -17,9 +19,16 @@ const localProjects = [
     demo: "https://korea-01.vercel.app/",
     github: "https://github.com/ShukurulloM/korea_01",
   },
+  {
+    id: 3,
+    img: English,
+    demo: "https://ilm-bilim.vercel.app/",
+    github: "https://github.com/ShukurulloM/ilm-bilim.vercel.app",
+  }
 ];
 
 const Project = () => {
+  useTitle("Loyihalar")
   const [t] = useTranslation("global");
   const translatedProjects = t("project.list", { returnObjects: true });
 
